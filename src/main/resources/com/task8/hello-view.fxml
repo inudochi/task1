@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<FlowPane alignment="CENTER" prefHeight="672.0" prefWidth="592.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.task8.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="400.0">
+      <children>
+         <Pane fx:id="pane1" prefHeight="200.0" prefWidth="303.0" />
+      </children></AnchorPane>
+   <VBox prefHeight="600.0" prefWidth="132.0">
+      <children>
+               <Button mnemonicParsing="false" onAction="#addPresent" text="Подарки" />
+               <Button mnemonicParsing="false" onAction="#addStar" text="Звезда" />
+               <Button mnemonicParsing="false" onAction="#addLights" text="Гирлянда" />
+               <Button mnemonicParsing="false" onAction="#addSG" prefHeight="25.0" prefWidth="137.0" text="Звезда и гирлянда" />
+      </children>
+   </VBox>
+         <Button mnemonicParsing="false" onAction="#addAll" text="Добавить все" />
+         <Button mnemonicParsing="false" onAction="#delete" text="Удалить" />
+</FlowPane>
